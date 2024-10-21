@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+
+
+
+h1{
+    letter-spacing: 10px;
+    font-size:  4rem;
+}
+
+
+nav{
+    z-index: 999;
+}
+header{
+    background:linear-gradient(transparent, black), url(./media/img.cinema4.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.links,
+.socials{
+    gap: 40px;
+}
+.links li{
+    cursor: pointer;
+}
+.socials li p{
+    color: blueviolet;
+}
+.bi-facebook{
+    color: blue;
+}
+.bi-envelope-at-fill{
+    color: azure;
+}
+.bi-instagram{
+    background: #833ab4;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;;
+}
+.link-socials{
+    cursor: pointer;;
+    gap: 7px;
+
+}
+.footer-custom{
+    height: 300px;
+}
+
+
+@media screen and (max-width: 670px) 
+{
+    h1{ 
+        font-size: 2rem;
+    }
+    
+}
